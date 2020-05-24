@@ -5,7 +5,7 @@
   "author": "Shengzhou Zhang <steven.shengzhou@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "jest src/**",
+    "test": "TZ=UTC jest src/**",
     "lint": "eslint 'src/**'",
     "format": "yarn lint --fix"
   },
