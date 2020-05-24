@@ -10,13 +10,13 @@ When a new transaction comes in, it incrementally adds the new amount and reduce
 
 ```
 src/
--- detect.ts            // main function to detect fraudulent credit cards
+-- detect.ts            // main function to detect fraudulent credit cards and maintain the sum
 -- detect.spec.ts
 -- utils/              
----- parse.ts           // parses transaction string
+---- parse.ts           // function to parse transaction string
 ---- parse.spec.ts
----- history.ts         // maintains a transaction history.
----- history.spec.ts
+---- history.ts         // data store for transaction history.
+---- parse.spec.ts
 ```
 
 ### Run Unit Tests
